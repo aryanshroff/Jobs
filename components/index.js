@@ -15,7 +15,7 @@ import Specifics from "./jobdetails/specifics/Specifics";
 // common
 import NearbyJobCard from "./common/cards/nearby/NearbyJobCard";
 
-export {
+export  {
   ScreenHeaderBtn,
   Welcome,
   Nearbyjobs,
