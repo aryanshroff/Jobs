@@ -1,33 +1,42 @@
-The project that you have created using React Native is a job search platform that features various job opportunities, including part-time, full-time, and contract-based jobs. The platform allows job seekers to search for jobs based on their preferences and qualifications.
+# Job 360
 
-For each job listing, there is a detailed description that provides information about the job title, job responsibilities, required qualifications, and other relevant details. Job seekers can also apply for jobs directly through the platform.
+Job 360 is a mobile app built with React Native that aims to simplify the job search process by leveraging the Glassdoor and LinkedIn APIs through Rapid API. The app provides users with a comprehensive platform to discover job openings, access company information, and streamline their application process.
+
+## Features
+
+- **Job Search:** Users can search for job openings by location, job title, industry, and experience level, offering a tailored job search experience.
+- **Glassdoor Integration:** The app integrates with the Glassdoor API to provide users with company information, employee reviews, ratings, and insights into company culture.
+- **LinkedIn Integration:** Users can access job openings from LinkedIn directly within the app, leveraging the LinkedIn API through Rapid API.
+- **Personalized Recommendations:** The app allows users to create profiles, save job preferences, and receive personalized job recommendations based on their qualifications and interests.
+- **Real-time Updates:** Job listings and company information are fetched in real-time from Glassdoor and LinkedIn APIs, ensuring up-to-date information for users.
+- **Application Tracking:** Users can track their job applications, manage their progress, and stay organized within the app.
+- **Resume Builder:** The app offers a feature to create or upload resumes, enabling users to apply for positions seamlessly.
+- **Social Media Sharing:** Users can easily share job listings with their networks on various social media platforms.
+- **Push Notifications:** Notifications keep users informed about new job listings, application updates, and industry news.
+- **Feedback and Support:** Users can provide feedback within the app, helping improve the user experience, and access customer support if needed.
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/yourusername/job-360.git`
+2. Navigate to the project directory: `cd job-360`
+3. Install the dependencies: `npm install`
+4. Start the app: `npm start`
+
+Please ensure you have Node.js and npm installed before proceeding with the above steps.
+
+## Configuration
+
+To use the Glassdoor and LinkedIn APIs, you need to obtain API keys from their respective platforms. Follow the steps below to configure the API keys:
+
+1. Visit the Glassdoor Developer Portal: [https://www.glassdoor.com/developer/index.htm](https://www.glassdoor.com/developer/index.htm)
+2. Obtain the Glassdoor API key.
+3. Visit the LinkedIn Developer Portal: [https://www.linkedin.com/developers/](https://www.linkedin.com/developers/)
+4. Obtain the LinkedIn API key.
+
+Once you have the API keys, open the `config.js` file in the project and replace the placeholder values with your actual API keys:
 
 
-<img src="https://user-images.githubusercontent.com/97445793/226334332-dafc12d6-bdc0-42ba-bd53-d18728cfb0c3.jpeg" width="200" height="400" />
 
-<img src="https://user-images.githubusercontent.com/97445793/226334372-95bb526e-f783-4189-8ea5-0be1af4fa912.jpeg" width="200" height="400" />
-
-<img src="https://user-images.githubusercontent.com/97445793/226334290-cfc9f53e-b1fa-4265-a887-7f0f07d7aba7.jpeg" width="200" height="400" />
-
-<img src="https://user-images.githubusercontent.com/97445793/226334311-e0e66c21-8711-427e-ac34-eab928cbb246.jpeg" width="200" height="400" />
-
-<img src="https://user-images.githubusercontent.com/97445793/226334363-12aaa4ec-c768-43d9-8e69-2b624bf3247b.jpeg" width="200" height="400" />
-
-
-
-
-# Expo Router Example
-
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
-
-## 🚀 How to use
-
-```sh
-npx create-react-native-app -t with-router
-```
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
+#Installations 2.1
+- npm install for web viewing 
+- expo-cli start --tunnel  
